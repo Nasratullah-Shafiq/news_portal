@@ -23,7 +23,7 @@ include_once('./Assets/_Partial Components/Header.php');
 	else{
 	    header('Location: index.php');
 	} 
-	
+
 ?>
 
 <div class="container">
