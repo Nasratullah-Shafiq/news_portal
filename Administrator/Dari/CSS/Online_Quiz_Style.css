@@ -1,0 +1,1208 @@
+body{
+	min-height: calc(100% - 0px);
+	position: relative;
+	padding-bottom: 40px;
+}
+html{
+	height: 100%;
+	position: relative;
+}
+#jbtdr{
+	background-image: url('./../../img/IBPS-Banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.all-dari-content *{
+	font-family: Calibri;
+}
+.text{
+	font-family: Calibri;
+}
+.row{
+	margin-bottom: 60px;
+}
+#img-cup{
+	padding-top: -15px;
+}
+.navbar-brand{
+    color: white;
+    margin-top: -5px; 
+    width: 190px;
+}
+#navbar-brand-right-dr{
+	float: right; 
+	color: #fff;
+}
+#navbar-brand-left-dr{
+	display: none;
+	font-family: calibri;
+}
+#navbardr #div-quiz-title-bar{
+	text-align: right; 
+	padding-left: 0px; 
+	padding-top: 5px;
+	padding-right: 6px;
+}
+#navbardr #img-cup-dr{
+	padding-left: 0px;
+}
+.navbar-brand #img-cup{ 
+	padding-left: 0px; 
+	padding-right: 0px;
+}
+.navbar-brand #div-quiz{
+	padding-top: 5px; 
+	padding-left: 0px; 
+	margin-right: 0px;
+	color: #ffffff;
+}
+#dropdown-profile-en{
+	background-color: rgb(0,112,190);
+	color: #fff;
+}
+#dropdown-profile-en:hover{
+	color: rgb(120,56,160);
+	transition: 1s ease;
+}
+#dropdown-profile-dr{
+	color: #fff;
+	text-align: right;
+}
+#dropdown-profile-dr:hover{
+	color: #fff;
+	text-align: right;
+	transition: 1s ease;
+}
+.li-dropdown{
+	display: none;
+}
+.jumbotron{
+    height: 150px;
+    overflow: hidden;
+    margin-top: -30px;
+    width: 100%;
+    background-image: url('./img/top-image.jpg');
+    background-color: #fff;
+}
+#jbt{
+	background-image: url('./img/top-image.jpg');
+}
+#drop-down-language{
+	background-color: rgb(0,112,192);
+	color: #fff;
+}
+#drop-down-language li a:hover{
+	background-color: rgb(0,57,192);
+	color: #fff;
+	transition: 1s ease;
+}
+.jumbotron #details{
+    position: absolute;
+    color:white;
+    font-size: 26px;
+    margin-right: 7%;
+    padding-right: 10px;
+    font-family: segoe ui
+	
+}
+.jumbotron #details h1{
+	font-size: 36px;
+	margin-top: -15px;
+	font-family: segoe ui;
+}
+.jumbotron #detailsDr{
+    color:white;
+    font-size: 26px;
+    padding-right: 10px;
+    float: right;
+	text-align: right;
+	width: 100%;
+}
+.jumbotron #detailsDr h1{
+	font-size: 40px;
+	margin-top: -15px;
+	text-align: right;
+}
+.jbt .container{
+	float: right;
+}
+.jumbotron #detailsDr span{
+    color:#24A7CF;
+	font-size: 36px;
+}
+.jumbotron #details span{
+    color:#24A7CF;
+	font-size: 36px;
+	font-family: segoe ui;
+}
+.paragraph{
+	font-size: 16px;
+	font-family: segoe ui;
+	font-weight: lighter;
+}
+.page-heading{
+	font-family: segoe ui;
+	font-variant: bold;
+	font-size: 40px;
+}
+.paragraphDr{
+	font-size: 17px;
+	text-align: right;
+	font-family: calibri;
+	/*font-family: Tahoma;*/
+}
+.page-headingDr{
+	text-align: right;
+	font-variant: bold;
+	font-size: 40px;
+	font-family: calibri;
+}
+#Answer{
+	margin-top: 70px;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 50px;
+	font-family: verdana;
+	height: 350px;
+	display: block;
+}
+
+
+font-size: 24px;
+}
+p{
+font-family: segoe ui light;
+}
+
+.nav-profile{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+	height: 400px;
+	color: black;
+	background-color: rgb(240,240,240);
+	font-family: Calibri;
+	font-weight: lighter;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+	
+}
+a:link, a:visited{
+	color: black;
+}
+#User-login{
+	list-style: none;
+	padding-top: 7px;
+}
+#img-users{
+	display: none;
+}
+#answer-form{
+	vertical-align: center;
+	margin-left: 25%;
+}
+#img-user:hover{
+	text-decoration: none;
+	transition: 1s ease;
+}
+.nav-right-side{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+	height: auto;
+	color: black;
+	background-color: rgb(240,240,240);
+	font-family: Calibri;
+	font-weight: lighter;
+	font-size: 17px;
+}
+
+
+.nav-right-side a:link, .nav-right-side a:visited{
+	display: inline-block;
+	padding: 8px 35px;
+	height: 38px;
+	width: 100%;
+	margin:0px;
+}
+.nav-right-side a:hover{
+	background-color: rgb(56,170,230);
+	text-decoration: none;
+	color: #fff;
+	transition: 1s ease;
+}
+.nav-right-side .active{
+	background-color: rgb(0,112,192);
+	color: white;
+	text-decoration: none;
+	border: none;
+}
+
+
+.nav-left-side{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+	height: auto;
+	color: black;
+	background-color: rgb(240,240,240);
+	font-family: segoe ui;
+	font-weight: lighter;
+	font-size: 15px;
+}
+.nav-left-side a:link, .nav-left-side a:visited{
+	display: inline-block;
+	padding: 8px 35px;
+	height: 38px;
+	width: 100%;
+	margin:0px;
+}
+.nav-left-side a:hover{
+	background-color: rgb(56,170,230);
+	text-decoration: none;
+	color: #fff;
+	font-family: segoe ui;
+	font-weight: lighter;
+	transition: 1s ease;
+}
+.nav-left-side .active{
+	background-color: rgb(0,112,192);
+	color: white;
+	text-decoration: none;
+	border: none;
+}
+.lable{
+	font-weight: lighter;
+}
+.nav-profile a{
+	color: rgb(0,112,190);
+	font-family: Calibri;
+}
+.nav-profile a:link, .nav-profile a:visited{
+	display: inline-block;
+	padding: 8px 35px;
+	height: 38px;
+	width: 100%;
+	margin:0px;
+	text-decoration: none;
+	border: none;
+}
+.nav-profile a:hover{
+	background-color: rgb(56,170,230);
+	text-decoration: none;
+	color: #fff;
+
+	font-weight: lighter;
+	transition: 0.3s ease;
+}
+.nav-profile .active{
+	background-color: rgb(0,112,192);
+	color: white;
+	text-decoration: none;
+	border: 1px solid rgb(0,112,190);
+}
+.line{
+	width: 100%; 
+	height: 1px; 
+	background-color: rgb(220,220,220); 
+}
+
+.button-start-the-quiz{
+	background-color: rgb(0,112,192);
+	height: 40px;
+	width: 32%;
+	color: white;
+	font-family: segoe ui;
+	font-weight: lighter;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 2px solid #fff;
+	transition: 0.4s ease;
+}
+.button-start-the-quiz:hover{
+	background-color: #fff;
+	border-radius: 5px;
+	border: 2px solid rgb(0,132,192);
+	transition: 0.4s ease;
+	
+}
+
+.button-start-the-quiz-dr{
+	background-color: rgb(0,112,192);
+	height: 40px;
+	width: 35%;
+	color: white;
+	font-family: Calibri;
+	border-radius: 5px;
+	border: 2px solid #fff;
+	float: right;
+	font-size: 17px;
+}
+.button-start-the-quiz-dr:hover{
+	border-radius: 5px;
+	border: 2px solid rgb(0,132,192);
+	transition: 0.4s ease;
+}
+#Categories-btn{
+	display: none;
+}
+#s{
+	background-color: red;
+}
+.nav-right-side{
+	width: 100%;
+	visibility: visible;
+}
+.nav-right-side.visible{
+	visibility: visible;
+}
+.nav-left-side{
+	width: 100%;
+	visibility: visible;
+}
+.nav-left-side.visible{
+	visibility: visible;
+}
+.button-start-the-quiz:hover{
+	color: #fff;
+	background-color: rgb(0,77,152);
+	transition: 0.4s ease;
+	
+}
+
+/*.button-start-the-quiz{
+	margin-bottom: 5px;
+}*/
+#img-carousel{
+	width: 100%;
+	height:200px;
+}
+.item h1{
+	font-size: 56px;
+	/*font-family: segoe ui;*/
+	font-variant: lighter;
+	font-family: segoe ui;
+	font-weight: lighter;
+}
+
+
+.btn-signin{
+	background-color: rgb(0,128,128);
+	height: 35px;
+	width: 100%;
+	color: white;
+	-moz-font-family: Segoe UI light;
+	font-size: 15px;
+	border: none;
+	border-radius: 0px;
+}
+
+.error{
+	color: red;
+	font-size: 16px;
+}
+.success{
+	color: green;
+}
+#navbardr li a{
+	color: #fff;
+}
+#navbardr  li a:hover{
+	color: rgb(200,200,200);
+	transition: 0.4s ease;
+}
+
+#Time{
+	padding-top: 30px;
+}
+#Time-left{
+	padding-top: 20px;
+}
+
+/*This is the place i want to fix the problem*/
+#top-navbar li a{
+	color: #fff;
+	font-size: 15px;
+}
+#top-navbar li a:hover{
+	color: rgb(230,230,220);
+	background-color: rgb(0,77,152);
+	transition: 0.4s ease;
+}
+#top-navbar li a span:hover{
+	color: rgb(210,210,210);
+	transition: 0.4s ease;
+}
+#btn-top-navbar{
+	border: none;
+}
+#btn-top-navbar:hover{
+	background-color: rgb(0,77,152);
+	transition: 0.4s ease;
+	border: none;
+}
+#msg{
+	color: red;
+	font-size: 17px;
+}
+#attention{
+	padding-left: 0px;
+}
+.tr-text-right{
+	text-align: right;
+}
+#navbar-brand-left-dr{
+	display: none;
+}
+.footer{
+	background-color: rgb(0,77,152);
+    height:50px;
+    padding-top: 15px;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    bottom: 0;
+	left: 0;
+	right: 0;
+}
+.footer .container{
+	padding-bottom: 15px;
+}
+.footer .container a{
+	color:#24A7CF;
+}
+.user-login{
+	display: none;
+}
+#sid{
+	display: none;
+}
+#contain{
+	margin-bottom: 20px;
+}
+.slideshow-container{
+	width: 100%;
+	position: relative;
+}
+.slides img{
+	width: 100%;
+	height: 470px;
+}
+.slides{
+	display: none;
+}
+#first-slide{
+	display: block;
+}
+.text{
+	text-align: center;
+	font-size: 88px;
+	position: absolute;
+	width: 100%;
+	padding: 8px 16px;
+	bottom: 50px;
+	color: #fff;
+}
+.previous,.next{
+	position: absolute;
+	top: 50%;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.previous:hover,.next:hover{
+	background-color: rgba(0,0,0,0.8);
+	cursor: pointer;
+	text-decoration: none;
+	color: #ffffff;
+	transition: 0.4s ease;
+}
+.carousel-dots{
+	text-align: center;
+	bottom: 30px;
+}
+.dots{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: #333;
+	bottom: 50px;
+	border-radius: 50%;
+}
+.btn-send{
+	color: #fff;
+	background-color: rgba(0,112,190,.8);
+	border-radius: 5px;
+	height: 45px;
+	border: 2px solid #fff;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: segoe ui;
+	width: 15%;
+}
+.btn-send:hover{
+	color: rgba(0,112,190,.8);
+	background-color: rgba(220,220,220,.8);
+	border: none;
+	/*border: 2px solid rgb(0,132,192);*/
+	transition: 0.5s ease;
+}
+#topBtn{
+	position: fixed;
+	bottom: 53px;
+	right: 40px;
+	font-size: 17px;
+	width: 35px;
+	height: 35px;
+	color: rgb(0,112,190);
+/*	background-color: rgba(0,112,190,.8);*/
+	border: solid 2px rgb(0,57,180);
+	background-color: transparent;
+	display: none;
+	border-radius: 50%;
+	font-weight: lighter;
+	padding-left: 7px;
+	padding-top: 4px;
+	cursor: pointer;
+}
+#topBtn:hover{
+	position: fixed;
+	bottom: 60px;
+	right: 40px;
+	font-size: 18px;
+	width: 35px;
+	height: 35px;
+	color: #fff;
+	border: solid 2px rgb(0,57,180);
+	background-color: rgb(0,112,190);
+	transition: .3s ease;
+	font-weight: lighter;
+}
+.div-text-about-online{
+	background-color: rgb(0,77,152);
+	width: 100%; 
+	color: rgb(240,240,240);
+	height: auto; 
+	padding-bottom: 50px;
+}
+.nav-index-side{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+	height: auto;
+	color: black;
+	background-color: rgb(240,240,240);
+	font-family: calibri;
+	font-weight: lighter;
+	font-size: 15px;
+}
+.nav-index-side a:link, .nav-index-side a:visited{
+	display: inline-block;
+	padding: 8px 35px;
+	height: 38px;
+	width: 100%;
+	margin:0px;
+}
+.nav-index-side a:hover{
+	background-color: rgb(56,170,230);
+	text-decoration: none;
+	color: #fff;
+	font-family: calibri;
+	font-weight: lighter;
+	transition: 1s ease;
+}
+.nav-index-side .active{
+	background-color: rgb(0,112,192);
+	color: white;
+	text-decoration: none;
+}
+.nav-dropdown{
+	display: inline-block;
+}
+.coniner{
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 5%;
+}
+@media only screen and (min-width:701px)and (max-width: 850px){
+.username-hide-on-mobile{
+	display: none;
+}
+
+}
+@media only screen and (min-width:850px)and (max-width: 1200px){
+
+body{
+	margin: 0px;
+}
+.username-hide-on-mobile{
+	display: inline-block;
+}
+.All-content{
+	margin: 0%;
+}
+.row{
+	margin-bottom: 50px;
+}
+.contain{
+	margin-bottom: 50px;
+}
+#logo{
+	width: 100%;
+}
+
+.main-content{
+	width: 100%;
+}
+#Categories-btn{
+	display: none;
+}
+
+#answer-form{
+	vertical-align: center;
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100%;
+}
+#img-carousel{
+	width: 100%;
+	height: 580px;
+}
+#msg{
+	padding-left: 3px;
+	font-size: 17px;
+	color: red;
+}
+.page-headingDr{
+	text-align: right;
+	font-variant: bold;
+	font-size: 30px;
+
+}
+p{
+	font-family: segoe ui;
+	font-weight: lighter;
+}
+.footer{
+    background-color: rgb(0,77,152);
+    height:50px;
+    padding-top: 15px;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    bottom: 0;
+	left: 0;
+	right: 0;
+}
+.footer .container{
+	padding-bottom: 15px;
+}
+.footer .container a{
+	color:#24A7CF;
+}
+#navbar-brand-left-dr{
+	display: none;
+}
+#navbar-brand-right-dr{
+	display: block;
+}
+.jumbotron #detailsDr{
+    color:white;
+    font-size: 20px;
+    padding-right: 10px;
+    float: right;
+	text-align: right;
+	width: 100%;
+}
+.jumbotron #detailsDr h1{
+	font-size: 30px;
+	margin-top: -15px;
+	text-align: right;
+}
+.jbt .container{
+	float: right;
+}
+.jumbotron #detailsDr span{
+    color:#24A7CF;
+	font-size: 36px;
+}
+}
+@media only screen and (min-width: 768px)and (max-width: 851px){
+  .container {
+    width: 98%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 850px)and (max-width: 1100px){
+  .container {
+    width: 98%;
+  }
+}
+
+
+
+@media only screen and (min-width:300px)and (max-width: 768px){
+#div-index{
+	margin-bottom: 20px;
+}
+.page-headingDr{
+	text-align: right;
+	font-weight: bold;
+	font-size: 25px;
+}
+.username-hide-on-mobile{
+	display: inline-block;
+}
+.nav-top-side a:link, .nav-top-side a:visited{
+	/*font-family: Segoe ui;*/
+	display: inline-block;
+	padding: 8px 35px;
+	height: 35px;
+	width: 100%;
+	margin:0px;
+	border: 1px solid rgb(0,112,190);
+}
+.nav-top-side a:active,
+.nav-top-side .active a:link,.nav-top-side .active a:visited{
+	background-color: rgb(0,110,130);
+	color: white;
+	text-decoration: none;
+	font-family: Calibri;
+	border: none;
+	border: 1px solid rgb(0,112,190);
+}
+.jumbotron{
+    height: 130px;
+    overflow: hidden;
+    margin-top: -50px;
+    width: 100%;
+}
+
+#jbtdr{
+	background-image: url('../img/IBPS-Banne.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jumbotron #details{
+    position: absolute;
+    color:white;
+    font-size: 26px;
+	
+}
+.jumbotron #details h1{
+	font-size: 25px;
+	margin-top: 10px;
+	color:#24A7CF;
+	font-family: Segoe ui;
+}
+.jumbotron #details span{
+    color:#24A7CF;
+	font-size: 25px;
+	font-family: Segoe ui;
+}
+.jumbotron #detailsDr{
+    color:white;
+    padding-right: 10px;
+    float: right;
+	text-align: right;
+	width: 100%;
+}
+.jumbotron #detailsDr h1{
+	font-size: 25px;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.jumbotron #detailsDr span{
+    color:#24A7CF;
+	font-size: 25px;
+}
+#user-login{
+	display: none;
+}
+#img-users{
+	display: block;
+}
+#navbar-brand-right-dr{
+	display: none;
+}
+#navbar-brand-left-dr{
+	display: block;
+}
+.nav-top-side a:hover{
+	background-color: rgb(0,170,230);
+	text-decoration: none;
+	color: #fff;
+	font-family: calibri;
+	font-weight: lighter;
+	font-size: 15px;
+	transition: 0.4s ease;
+}
+.nav-top-side{
+	font-size: 15px;
+	font-family: Calibri;
+}
+.nav-top-side .active{
+	background-color: rgb(0,77,152);
+	color: #fff;
+	text-decoration: none;
+	font-family: Calibri;
+	font-size: 15px;
+	border: 1px solid rgb(0,112,190);
+}
+.nav-top-side a{
+	font-family: Calibri;
+	color: white;
+	text-decoration: none;
+}
+#Categories-btn{
+	display: block;
+	font-family: Segoe ui;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+#logo{
+	width: 80%;
+}
+
+#img-carousel{
+	width: 100%;
+	height: 200px;
+}
+.button-start-the-quiz{
+	width: 100%;
+}
+.All-content{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+}
+#answer-form{
+	vertical-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#details p{
+    
+    font-size: 15px;
+}
+.button-nav{
+	background-color: rgb(0,15,10);
+	color: white;
+	font-family: segeo ui;
+	font-style: normal;
+	width: 100%;
+	height: 35px;
+	border: none;
+	text-align: center;
+}
+
+.nav-left-side{
+	display: none;
+}
+.nav-right-side{
+	display: none;
+}
+.footerDr{
+    background-color: rgb(0,77,152);
+    height:70px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    bottom: 0;
+	left: 0;
+	right: 0;
+}
+#Time-left{
+	padding-top: 0px;
+	padding-left: 3px;
+	width: 49%;
+	float: left;
+	height: 50px;
+	margin-top: 0px;
+}
+#Time{
+	padding-top: 7px;
+	width: 49%;
+	float: right;
+	height: 50px;
+}
+#attention p{
+	padding-left: 3px;
+}
+.footer{
+    background-color: rgb(0,77,152);
+    height:70px;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+#text-index-page,.text-index-page{
+	font-size: 26px;
+	text-align: left;
+}
+.div-text-about-online{
+	/*background-color: rgb(240,240,240); */
+	background-color: rgb(0,77,152);
+	width: 100%; 
+	color: rgb(240,240,240);
+	height: auto; 
+	padding-bottom: 50px;
+}
+.row{
+	margin-bottom: 80px;
+}
+#topBtn{
+	bottom: 90px;
+	right: 25px;
+	font-size: 17px;
+	width: 35px;
+	height: 35px;
+	/*color: rgb(0,112,190);*/
+	color: #fff;
+	background-color: rgba(0,112,190,.8);
+}
+.nav-profile{
+	display: none;
+}
+#topBtn:hover{
+	bottom: 92px;
+	right: 25px;
+}
+.li-dropdown{
+	display: block;
+}
+.button-start-the-quiz-dr{
+	width: 100%;
+}
+}
+@media only screen and (min-width:50px)and (max-width: 300px){
+body{
+margin: 0px;
+
+}
+.row{
+	margin-bottom: 80px;
+}
+#div-index{
+	margin-bottom: 20px;
+}
+.nav-profile{
+	display: none;
+}
+.page-headingDr{
+	text-align: right;
+	font-weight: bold;
+	font-size: 25px;
+}
+.nav-top-side a:link, .nav-top-side a:visited{
+	/*font-family: Segoe ui;*/
+	display: inline-block;
+	padding: 8px 35px;
+	height: 35px;
+	width: 100%;
+	margin:0px;
+	border: 1px solid rgb(0,112,190);
+}
+.nav-top-side a:active,
+.nav-top-side .active a:link,.nav-top-side .active a:visited{
+	background-color: rgb(0,130,130);
+	color: white;
+	text-decoration: none;
+	/*font-family: Segoe ui;*/
+	border: 1px solid rgb(0,112,190);
+}
+.jumbotron{
+    height: 130px;
+    overflow: hidden;
+    margin-top: -50px;
+    width: 100%;
+}
+
+.jumbotron #details{
+    position: absolute;
+    color:white;
+    font-size: 26px;
+	
+}
+.jumbotron #details h1{
+	font-size: 25px;
+	margin-top: 10px;
+	color:#24A7CF;
+	font-family: Segoe ui;
+}
+.jumbotron #details h3{
+	-webkit-font-family: Segoe ui;
+	-moz-font-family: Segoe ui;
+}
+.jumbotron #details span{
+    color:#24A7CF;
+	font-size: 25px;
+	font-family: Segoe ui;
+}
+#user-login{
+	display: block;
+}
+#img-users{
+	display: block;
+}
+#navbar-brand-right-dr{
+	display: none;
+}
+#navbar-brand-left-dr{
+	display: block;
+}
+
+.nav-top-side a:hover{
+	background-color: rgb(56,170,230);
+	text-decoration: none;
+	color: #fff;
+	/*font-family: Segoe ui;*/
+	font-weight: lighter;
+	font-size: 15px;
+	transition: 0.4s ease;
+}
+.nav-top-side{
+	font-size: 15px;
+}
+.nav-top-side .active{
+	background-color: rgb(0,77,152);
+	color: #fff;
+	text-decoration: none;
+	font-family: Segoe ui;
+	font-size: 15px;
+}
+.nav-top-side a{
+	
+	color: white;
+	text-decoration: none;
+}
+#Categories-btn{
+	display: block;
+	font-family: Segoe ui;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+#logo{
+	width: 80%;
+}
+
+#img-carousel{
+	width: 100%;
+	height: 200px;
+}
+.button-start-the-quiz{
+	width: 100%;
+}
+.All-content{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+}
+#answer-form{
+	vertical-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#details p{
+    
+    font-size: 15px;
+}
+.nav-left-side{
+	display: none;
+}
+
+.footer{
+    background-color: rgb(0,77,152);
+    height:90px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    bottom: 0;
+	left: 0;
+	right: 0;
+}
+.footerDr{
+    background-color: rgb(0,77,152);
+    height:70px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    bottom: 0;
+	left: 0;
+	right: 0;
+}
+#Time-left{
+	padding-top: 0px;
+	padding-left: 3px;
+	width: 49%;
+	float: left;
+	height: 50px;
+	margin-top: 0px;
+}
+#Time{
+	padding-top: 7px;
+	width: 49%;
+	float: right;
+	height: 50px;
+}
+#attention p{
+	padding-left: 3px;
+}
+#text-index-page, .text-index-page{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+.div-text-about-online{
+	background-color: rgb(0,77,152);
+	width: 100%; 
+	color: rgb(240,240,240);
+	height: auto; 
+	padding-bottom: 50px;
+}
+.slider{
+	width: 100%; 
+	height: 180px;
+}
+#topBtn{
+	bottom: 90px;
+	right: 25px;
+	font-size: 17px;
+	width: 35px;
+	height: 35px;
+	color: rgb(0,112,190);
+/*	background-color: rgba(0,112,190,.8);*/
+}
+.li-dropdown{
+	display: block;
+}
+#topBtn:hover{
+	bottom: 92px;
+	right: 25px;
+}
+}

@@ -1,0 +1,247 @@
+.all-dari-content *{
+	font-family: Calibri;
+}
+.myslides{
+
+}
+img{
+	vertical-align: middle;
+}
+#slider{
+	width: 100%;
+	height: 630px;
+}
+.text h1{
+	font-family: Calibri;
+}
+.slideshow-container{
+	width: 100%;
+	position: relative;
+	
+	margin-top: -20px;
+}
+
+.previous, .nextsld{
+	cursor: pointer;
+	top: 40%;
+	position: absolute;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-size: 22px;
+	font-weight: 700;
+	border-radius: 0px 3px;
+	transition: 1s ease;
+}
+
+.nextsld{
+	right: 0;
+	border-radius: 3px 3px;
+
+}
+.previous:hover, .nextsld:hover{
+	background: rgba(0,0,0,0.8);
+	text-decoration: none;
+}
+.text{
+	font-size: 18px;
+	position: absolute;
+	padding: 8px 12px;
+	bottom: 50%;
+	width: 100%;
+	text-align: center;
+	color: rgba(0,112,190,0.8);
+	font-size: 52px;
+	font-family: segeo ui;
+	font-weight: lighter;
+}
+.text h1{
+	font-size: 70px; 
+	font-family: segoe ui; 
+	color: orange; 
+	text-shadow: 1px;
+	text-shadow: 2px 2px 2px 2px;
+}
+.dot-symbols{
+	margin: auto;
+	text-align: -webkit-center;
+	text-align: center;
+}
+
+
+
+
+/*.active{
+	background-color: red;
+	border: 1px solid #333;
+}*/
+.dots{
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	margin: 0px 2px;
+	background-color: #333;
+	border: 1px solid #333;
+	display: inline-block;
+	transition: 1s ease;
+	transition: transform .3s ease-out;
+
+}
+.active, .dots:hover{
+	animation-name: Myfade;
+	animation-duration: 5s;
+		transition: 2s linear;
+
+}
+.Myfade{
+	animation-name: Myfade;
+	animation-duration: 2s;
+	transition: 1s ease;
+	transition: transform .3s ease-out;
+	transition: .15s linear;
+
+}
+@keyframes Myfade{
+	from{opacity: 0.7}to{opacity: 1};
+	transition: 1s ease;
+	transition: transform 0.3s ease-out;
+}
+@media only screen and (min-width:100px)and (max-width: 500px){
+	#slider{
+	width: 100%;
+	height: 170px;
+}
+.slideshow-container{
+	width: 100%;
+	position: relative;
+	/*margin-top: -20px;*/
+}
+.btn-send{
+	width: 55%;
+	font-size: 14px;
+	height: 35px;
+}
+.dots{
+	cursor: pointer;
+	height: 8px;
+	width: 8px;
+	margin: 0px 2px;
+	background-color: #333;
+	border: 1px solid #333;
+	display: inline-block;
+	transition: 1s ease;
+	transition: transform .3s ease-out;
+
+}
+.previous, .nextsld{
+	cursor: pointer;
+	top: 40%;
+	position: absolute;
+	width: auto;
+	padding: 10px;
+	margin-top: -22px;
+	color: white;
+	font-size: 18px;
+	border-radius: 0px 3px;
+	transition: 1s ease;
+}
+.text h1{
+	font-size: 23px; 
+	font-family: segoe ui; 
+	color: orange; 
+	top: 70%;
+	text-shadow: 2px 2px 2px 2px red;
+}
+.text{
+	font-size: 18px;
+	position: absolute;
+	padding: 8px 12px;
+	bottom: 30%;
+	width: 100%;
+	text-align: center;
+	color: rgba(0,112,190,0.8);
+	font-size: 52px;
+	font-family: segeo ui;
+	font-weight: lighter;
+}
+}
+@media only screen and (min-width:501px)and (max-width: 699px){
+#slider{
+	width: 100%;
+	height: 250px;
+}
+.previous, .nextsld{
+	cursor: pointer;
+	top: 40%;
+	position: absolute;
+	width: auto;
+	padding: 9px;
+	margin-top: -22px;
+	color: white;
+	font-size: 18px;
+	border-radius: 0px 3px;
+	transition: 1s ease;
+}
+.text h1{
+	font-size: 40px; 
+	font-family: segoe ui; 
+	color: orange; 
+	top: 70%;
+	text-shadow: 2px 2px 2px 2px red;
+}
+.dots{
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+	margin: 0px 2px;
+	background-color: #333;
+	border: 1px solid #333;
+	display: inline-block;
+	transition: 1s ease;
+	transition: transform .3s ease-out;
+
+}
+.btn-send{
+	width: 35%;
+	font-size: 15px;
+	height: 40px;
+	font-variant: lighter;
+}
+.text{
+	font-size: 18px;
+	position: absolute;
+	padding: 8px 12px;
+	bottom: 50%;
+	width: 100%;
+	text-align: center;
+	color: rgba(0,112,190,0.8);
+	font-size: 52px;
+	font-family: segeo ui;
+	font-weight: lighter;
+}	
+}
+@media only screen and (min-width:700px)and (max-width: 900px){
+	#slider{
+	width: 100%;
+	height: 400px;
+}
+.btn-send{
+	width: 25%;
+	font-size: 15px;
+	height: 40px;
+	font-variant: lighter;
+}
+}
+@media only screen and (min-width:901px)and (max-width: 1100px){
+	#slider{
+	width: 100%;
+	height: 500px;
+}
+.btn-send{
+	width: 25%;
+	font-size: 15px;
+	height: 40px;
+	font-variant: lighter;
+}
+}

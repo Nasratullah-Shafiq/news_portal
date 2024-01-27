@@ -1,0 +1,90 @@
+CREATE TABLE category (
+		category_id		   INT 	primary key	 identity,
+		category_name	   VARCHAR(15) UNIQUE
+);
+	
+CREATE TABLE news (
+		news_id				INT primary key	 identity,
+		news_title			VARCHAR(128) NOT NULL,
+		news_body			Text	NOT NULL,
+		news_file			VARCHAR(128) ,
+		news_date			DATE NOT NULL,
+		news_source			VARCHAR(64) NOT NULL,
+		category_id			INT  NOT NULL,
+		visits				INT NOT NULL DEFAULT 0,
+	CONSTRAINT news_category_fk FOREIGN KEY(category_id) REFERENCES category(category_id) ON DELETE NO ACTION ON UPDATE CASCADE
+);
+
+CREATE TABLE 	account (
+		account_id			INT primary key identity,
+		firstname			VARCHAR(16) NOT NULL,
+		lastname			VARCHAR(16) ,
+		gender				BIT NOT NULL,
+		dob					DATE NOT NULL ,
+		phone				VARCHAR(16) NOT NULL,
+		email				VARCHAR(64) NOT NULL,
+		photo				VARCHAR(128) ,
+		address				VARCHAR(128) 
+);		
+
+	
+	
+CREATE TABLE article (
+		article_id			INT primary key	 identity,
+		article_title		VARCHAR(128) NOT NULL,
+		article_body		TEXT NOT NULL,
+		article_date		DATE NOT NULL,
+		article_source		VARCHAR(64) NOT NULL,
+		article_file		VARCHAR(128) ,
+		category_id			INT NOT NULL,
+	CONSTRAINT article_category_fk FOREIGN KEY(category_id) REFERENCES category(category_id) ON DELETE NO ACTION ON UPDATE CASCADE
+);
+	
+CREATE TABLE 	news_comment (
+		comment_id			INT primary key	 identity,
+		news_id				INT NOT NULL,
+		account_id			INT NOT NULL,
+		comment_text		VARCHAR(255) NOT NULL,
+		comment_date		BIGINT NOT NULL,
+		
+	CONSTRAINT news_comment_fk FOREIGN KEY(news_id) REFERENCES news(news_id) ON DELETE NO ACTION ON UPDATE CASCADE,
+	CONSTRAINT account_comment_fk FOREIGN KEY(account_id) REFERENCES account(account_id) ON DELETE NO ACTION ON UPDATE CASCADE
+);
+		
+CREATE TABLE  news_like (
+		news_id				INT , 
+		account_id			INT ,
+		like_date			BIGINT NOT NULL,
+		
+		CONSTRAINT news_like_pk PRIMARY KEY(news_id, account_id),
+		CONSTRAINT news_like_fk FOREIGN KEY(news_id) REFERENCES news(news_id) ON DELETE CASCADE ON UPDATE CASCADE,
+		CONSTRAINT account_like_fk FOREIGN KEY(account_id) REFERENCES account(account_id) ON DELETE NO ACTION ON UPDATE CASCADE
+);
+	
+CREATE TABLE 	users (
+		user_id				INT primary key	 identity ,
+		username			VARCHAR(32) NOT NULL UNIQUE ,
+		password			VARCHAR(64) NOT NULL ,
+		firstname			VARCHAR(16) NOT NULL ,
+		lastname			VARCHAR(16) ,
+);		
+					
+CREATE TABLE user_level (
+		user_id				INT primary key ,
+		politic_level		INT NOT NULL DEFAULT 0,
+		sport_level			INT NOT NULL DEFAULT 0,
+		economic_level		INT NOT NULL DEFAULT 0,
+		social_level		INT NOT NULL DEFAULT 0,
+		art_level			INT NOT NULL DEFAULT 0,
+		science_level		INT NOT NULL DEFAULT 0,
+		medical_level		INT NOT NULL DEFAULT 0,
+		nature_level		INT NOT NULL DEFAULT 0,
+		
+	CONSTRAINT user_level_fk FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+	
+
+	
+	
+	
+	
