@@ -5,7 +5,7 @@ Class Database{
  public $host   = "localhost";
  public $user   = "root";
  public $pass   = "";
- public $db     = "newsportal";
+ public $db     = "News_Portal";
  
  
  public $link;
