@@ -3,7 +3,7 @@ Class Database{
  public $host   = "localhost";
  public $user   = "root";
  public $pass   = "";
- public $db     = "Newsportal";
+ public $db     = "News_portal";
  
  
  public $link;
