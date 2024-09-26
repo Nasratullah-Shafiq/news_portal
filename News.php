@@ -15,7 +15,7 @@ include_once('./Assets/_Partial Components/Header.php');
 	}
 	else{
         header('Location: index.php');
-	// } 
+	} 
 		
 
 	if (isset($_GET['id'])) {
