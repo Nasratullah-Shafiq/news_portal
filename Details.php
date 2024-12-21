@@ -16,7 +16,7 @@ else{
 } 
 	if(isset($_SESSION['$Email'])){
 	    $Email = $_SESSION['Email'];
-
+ 
 		$UsersByUsername = $mtd->getUsersByUsername($Email);
 		$userRow = $UsersByUsername->fetch_assoc();        
     }
