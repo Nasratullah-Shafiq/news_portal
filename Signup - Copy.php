@@ -20,7 +20,6 @@ include_once "Assets/_Partial Components/".$class.".php";
    <link rel = "Stylesheet" type = "text/css" href = "./Assets/CSS/signin-style.css" />
    <link rel = "Stylesheet" type = "text/css" href ="./Assets/css/bootstrap.min.css" />
    <link rel = "Stylesheet" type = "text/css" href ="./Assets/css/bootstrap.css" rel=" stylesheet" />
-
    <script src = "./Assets/js/bootstrap.min.js"></script>
    <script src = "./Assets/js/bootstrap.js"></script>
    <script src = "./Assets/js/jquery.js" type="text/javascript" ></script>
