@@ -26,6 +26,7 @@ include_once('./Assets/_Partial Components/Header.php');
 	} 
 	
 ?>
+
 <div class="container">
 		<div class="row">
 			<div class="col-md-8">
