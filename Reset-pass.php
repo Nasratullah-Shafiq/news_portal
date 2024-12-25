@@ -25,6 +25,7 @@ else{
     header("location: sign in.php");
 }
 ?>
+
 <!DOCTYPE html>
 <html>
 <title> Reset Password </title>
