@@ -21,7 +21,6 @@ include_once "Assets/_Partial Components/".$class.".php";
     <link rel = "stylesheet" href="Assets/css/font-awesome.css">
     <link rel = "icon" type="image/png" href="img/Graduation Cap_48px.png">
     
-
    <script type="text/javascript" src="./Assets/js/bootstrap.min.js"></script>
    <script type="text/javascript" src="./Assets/js/bootstrap.js"></script>
    
