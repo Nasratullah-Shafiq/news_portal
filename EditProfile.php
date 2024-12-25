@@ -20,7 +20,6 @@ else{
     header("location: index.php");
 }
 ?>
-
 <?php
 if(isset($_POST['submit'])){
 
