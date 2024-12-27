@@ -20,6 +20,7 @@ else{
 		$UsersByUsername = $mtd->getUsersByUsername($Email);
 		$userRow = $UsersByUsername->fetch_assoc();        
     }
+	
 $userRow = $UsersByUsername->fetch_assoc();   
 
 $Like = $mtd->getLike($News_ID);
