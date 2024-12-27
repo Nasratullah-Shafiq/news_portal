@@ -21,7 +21,6 @@ include_once('./_Partial Components/Header.php');
 				</div>
 			</div>
 		</div>
-	 
 </div>
 
 <?php 
