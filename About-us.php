@@ -16,7 +16,6 @@ include_once('./_Partial Components/Header.php');
 							50 language from 6 AM to 6 PM.
 							</p>
 						</div>
-						
 					</div>
 					
 				</div>
