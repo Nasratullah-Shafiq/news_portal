@@ -20,7 +20,6 @@ else{
     header("location: index.php");
 }
 ?>
-
     <div class="jumbotron" id = "jbt" style="background-image: url('./img/IBPS-Banne.jpg'); background-size: cover;">
         <div class="container">
             <div id="details" class="animated fadeInLeft">
