@@ -21,6 +21,7 @@ $World_News = $mtd->getWorldNews();
                         </div>
                 	</form>
             	</div>
+				
 			<?php 
                     if(!$Afg_News){
                         echo "<br>";
