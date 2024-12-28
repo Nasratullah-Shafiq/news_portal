@@ -7,7 +7,6 @@ include_once('./Assets/_Partial Components/Header.php');
 		$Category_ID = ((($data2*999999)/9999)/123456789);
 	}
 
-
 	if (isset($_GET['id'])) {
 	 	$data = $_GET['id'];
 		$CategoryByID = $mtd->getCategoryByID($Category_ID);
