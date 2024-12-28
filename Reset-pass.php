@@ -12,6 +12,7 @@ include_once "_Partial Components/".$class.".php";
 // if(!isset($_SESSION['Email'])){
 //     header('Location: sign in.php');
 // }
+
 ?>
 <?php 
 session_start();
