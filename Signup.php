@@ -16,7 +16,6 @@ include_once "Assets/_Partial Components/".$class.".php";
 <html>
 
 <head> 
-    
    <meta name="viewport" content=" width=device-width, initial-scale=1" />
    <link rel = "Stylesheet" type = "text/css" href = "./Assets/CSS/signin-style.css" />
    <link rel = "Stylesheet" type = "text/css" href ="./Assets/css/bootstrap.min.css" />
