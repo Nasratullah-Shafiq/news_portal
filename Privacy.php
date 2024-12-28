@@ -10,6 +10,7 @@ include_once('./_Partial Components/Header.php');
 						<div class="col-md-12">
 							<h2> Manhatan Breaches Security</h2>
 						</div>
+						
 						<div class="col-md-12">
 							<p> This is to say that British Military
 								is to use Nuclear weapons for their 
