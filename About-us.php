@@ -10,6 +10,7 @@ include_once('./_Partial Components/Header.php');
 						<div class="col-md-12">
 							<h2>  Here you can find information about BBC NEW</h2>
 						</div>
+						
 						<div class="col-md-8">
 							<p> BBC News is located in England London City. and is one of the most famous
 							broadcasting channel. which is broadcasting news to more than 100 countries by 
