@@ -15,7 +15,7 @@
                 </a>
                 <a href="Manage-News.php" class="nav-link ">
                     <li class="nav-item">
-                            <i class = "fa fa-list-alt"></i> Manage News
+                        <i class = "fa fa-list-alt"></i> Manage News
                     </li>
                 </a>
             </div>
