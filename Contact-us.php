@@ -13,6 +13,7 @@ include_once('./_Partial Components/Header.php');
 				<form action="" method = "POST">
                     <div class="form-group">
                             <?php 
+                            
                                 if (isset($error)) {
                                     echo "<div class='alert alert-danger' role='alert' style = 'font-size: 16px;'> $error </div>";
                                 }
@@ -20,7 +21,7 @@ include_once('./_Partial Components/Header.php');
                                     echo "<div class='alert alert-success' role='alert' style = 'font-size: 16px;'> $msg </div>";
                                 }
                             ?>  
-                            
+
                     </div>
                     <div class="form-group">
                         <label for="ful-name"> Full Name </label>
