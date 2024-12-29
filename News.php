@@ -16,6 +16,7 @@ include_once('./Assets/_Partial Components/Header.php');
         header('Location: index.php');
 	} 
 
+	
 	if (isset($_GET['id'])) {
 	 	$data = $_GET['id'];
 		}
