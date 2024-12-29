@@ -10,5 +10,6 @@
 		$Category = $_POST['Category'];
 		$updtCategory = $usr->updateCategory($Category_ID, $Category);
 	
+		
 	}
 ?>
