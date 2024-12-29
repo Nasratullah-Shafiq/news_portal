@@ -15,4 +15,5 @@
 		$updtTeacher = $usr->updateTeachers($Teacher_Name, $Language, $Email, $Gender, $Mobile_No, $Time, $Teacher_ID);
 	
 	}
+	
 ?>
