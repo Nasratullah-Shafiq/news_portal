@@ -14,7 +14,6 @@ $fm = new Format();
 $usr = new Users();
 $exm = new Exam();
 
-
 // if(isset($_SESSION['Username'])){ 
 //     $Username = $_SESSION['Username'];
 //     $UsersByUsername = $exm->getUsersByUsername($Username);
