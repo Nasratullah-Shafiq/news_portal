@@ -9,7 +9,6 @@ if(!isset($_SESSION['Username'])){
     header('Location: sign in.php');
 }
 
-
 if(isset($_SESSION['Username'])){
     $Username = $_SESSION['Username'];
     $UsersByUsername = $exm->getUsersByUsername($Username);
