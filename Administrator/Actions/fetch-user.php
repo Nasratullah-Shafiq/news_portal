@@ -16,6 +16,7 @@ if(mysqli_num_rows($result)>0){
 
   $output .= '<div calss = "table-responsive">
   <table class="table table-stripped table-hover">
+  
     <thead>
         <tr>
             <th> ID </th>
