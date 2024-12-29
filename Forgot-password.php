@@ -13,6 +13,7 @@ include('./_Partial Components/conn.php');
 <html>
 <title> forgot Password </title>
 <head>
+	
    <meta name="viewport" content=" width=device-width, initial-scale=1" /> 
    <link rel = "Stylesheet" type = "text/css" href = "./CSS/signin-style.css"/>
    <link href ="./css/bootstrap.min.css" rel=" stylesheet" />
