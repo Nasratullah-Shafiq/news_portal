@@ -14,6 +14,7 @@ include_once "_Partial Components/".$class.".php";
 // }
 
 ?>
+
 <?php 
 session_start();
 $Email = $_SESSION['Email'];
