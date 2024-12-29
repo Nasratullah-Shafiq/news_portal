@@ -13,5 +13,6 @@
 		$Status = $_POST['Status'];
 		$SubjectAdd = $usr->addSubjects($Subject, $Language, $Credit_Hours, $Teacher_ID, $Faculty_ID, $Time, $Status);
 	
+		
 	}
 ?>
