@@ -11,7 +11,6 @@ class Users{
 		$this->db = new Database();
 		$this->fm = new Format();
 	}
-
 	
 public function userRegistration($First_Name, $Last_Name, $Username, $Password, $email, $Address, $City, $Gender){
 	$First_Name = $this->fm->validation($First_Name);
