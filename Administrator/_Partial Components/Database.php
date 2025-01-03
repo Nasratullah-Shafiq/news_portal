@@ -7,7 +7,6 @@ Class Database{
  public $pass   = "";
  public $db     = "News_Portal";
  
- 
  public $link;
  public $error;
  
