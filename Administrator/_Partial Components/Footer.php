@@ -20,7 +20,6 @@
         <script src="./js/AjaxSearch.js"></script>
         
     <footer class ="footer">
-        
         <div id="container-fluid">
             Copyright &copy; by <a href="http://www.facebook.com/Nasratullah Shafiq"> Nasratullah Shafiq </a>. All Right Reserved from 2011 - <?php echo date('Y');?>.
         </div>            
