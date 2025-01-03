@@ -7,7 +7,6 @@ class Exam{
 		$this->db = new Database();
 		$this->fm = new Format();
 	}
-
 	public function getTotalRows(){
 		$query = "SELECT * from News where Status = 'Publish'";
 		mysqli_set_charset($this->db->link, 'UTF8');
