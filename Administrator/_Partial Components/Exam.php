@@ -13,7 +13,7 @@ class Exam{
 		$getResult = $this->db->select($query);
 		$total =$getResult->num_rows;
 		return $total;
-	}
+	} 
 	/* FUNCTION FOR SHOWING TOTAL QUESTION OF SPECIFIC SUBJECT 
 	public function getTotalRowsOfSubject($Subject_ID){
 		$query = "SELECT * from Question where Subject_ID = '$Subject_ID' and Status = '1'";
