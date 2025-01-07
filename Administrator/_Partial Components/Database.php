@@ -8,12 +8,12 @@ Class Database{
  public $db     = "News_Portal";
  
  public $link;
- public $error;
+ public $error; 
  
  public function __construct(){
   $this->connectDB();
  }
- 
+  
 private function connectDB(){
  $this->link = new mysqli($this->host, $this->user, $this->pass, $this->db);
  if(!$this->link){
