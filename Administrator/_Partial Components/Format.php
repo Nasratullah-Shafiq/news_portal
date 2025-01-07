@@ -13,7 +13,7 @@ class Format{
   $text = substr($text, 0, strrpos($text, ' '));
   $text = $text.".....";
   return $text;
- }
+ } 
  
  public function validation($data){
   $data = trim($data);
