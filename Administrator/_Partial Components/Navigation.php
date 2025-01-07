@@ -18,7 +18,7 @@
                         <i class = "fa fa-list-alt"></i> Manage News
                     </li>
                 </a>
-                
+                 
             </div>
         </div>
         <div class="set">
