@@ -10,6 +10,7 @@ spl_autoload_register(function($class){
 include_once "_Partial Components/".$class.".php";
 });
 
+
 $db = new Database();
 $fm = new Format();
 $usr = new Users();
