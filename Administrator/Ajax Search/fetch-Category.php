@@ -23,7 +23,6 @@ if(mysqli_num_rows($result)>0){
         </tr>
     </thead>';
 
-    
   while($row = mysqli_fetch_array($result)){
 
         $output .='
