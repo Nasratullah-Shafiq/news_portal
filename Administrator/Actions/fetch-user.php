@@ -13,7 +13,7 @@ mysqli_set_charset($connect, 'UTF8');
 $result = mysqli_query($connect, $sql);
 
 if(mysqli_num_rows($result)>0){
-
+ 
   $output .= '<div calss = "table-responsive">
   <table class="table table-stripped table-hover">
   
