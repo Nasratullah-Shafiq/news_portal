@@ -11,7 +11,7 @@
 		$Mobile_No = $_POST['Mobile_No'];
 		$Time = $_POST['Time'];
 		$Teacher_ID = $_POST['Teacher_ID'];
-		
+		 
 		$updtTeacher = $usr->updateTeachers($Teacher_Name, $Language, $Email, $Gender, $Mobile_No, $Time, $Teacher_ID);
 	}
 	
