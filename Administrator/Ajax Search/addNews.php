@@ -9,7 +9,7 @@
 		$Source =  $_POST['Source'];
 		$Category_ID =  $_POST['Category_ID'];
 		
-	
+	 
 		$Newsdd = $usr->addNews($Heading, $Body, $Source, $Category_ID);
 	
 	}
