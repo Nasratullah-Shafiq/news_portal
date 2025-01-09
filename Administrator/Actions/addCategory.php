@@ -9,5 +9,5 @@
 		
 		$addCat = $usr->addCategory($Category, $Language);
 	
-	}
+	} 
 ?>
