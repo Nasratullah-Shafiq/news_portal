@@ -11,6 +11,5 @@
 		$Category_ID = $_POST['Category_ID'];
 		
 		$updtNews = $usr->updateNews($News_ID, $Heading, $Body, $Source, $Category_ID);
-	
 	}
 ?>
