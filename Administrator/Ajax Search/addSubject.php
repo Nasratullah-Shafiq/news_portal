@@ -2,7 +2,7 @@
 	$filepath = realpath(dirname(__FILE__));
 	include_once($filepath.'./../_Partial Components/Users.php');
 	$usr = new Users();
- 
+   
 	if($_SERVER['REQUEST_METHOD'] == 'POST'){
 		$Subject = $_POST['Subject'];
 		$Language = $_POST['Language'];
