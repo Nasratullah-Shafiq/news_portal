@@ -13,4 +13,4 @@
 		$Newsdd = $usr->addNews($Heading, $Body, $Source, $Category_ID);
 	
 	}
-?>
+?> 
