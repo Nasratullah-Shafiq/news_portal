@@ -6,7 +6,7 @@ Class Database{
  public $user   = "root";
  public $pass   = "";
  public $db     = "News_Portal";
- 
+  
  public $link;
  public $error; 
  
