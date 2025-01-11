@@ -8,6 +8,6 @@
 		$Language = $_POST['Language'];
 		
 		$addCat = $usr->addCategory($Category, $Language);
-	
+	 
 	} 
 ?>
