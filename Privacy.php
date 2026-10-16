@@ -25,6 +25,7 @@ include_once('./_Partial Components/Header.php');
 						</div>
 					</div>
 					
+					
 					<div class="col-md-8">
 						<img src="img/prawn_saffron_biryani_82760_16x9.jpg" width = "100%" height="100%;">
 					</div>
