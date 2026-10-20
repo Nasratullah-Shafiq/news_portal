@@ -28,6 +28,7 @@ include_once "Assets/_Partial Components/".$class.".php";
    <script type="text/javascript" src = "./Assets/js/NewsPortal.js"></script>
 
 </head>
+
 <body class="body"> 
 <script type="text/javascript">
   

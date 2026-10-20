@@ -27,6 +27,7 @@ include_once "Assets/_Partial Components/".$class.".php";
    <script src = "./Assets/js/jquery.js" type="text/javascript" ></script>
    <script src = "./Assets/js/NewsPortal.js"></script>
 
+   
 </head>
 <body class = "body"> 
 

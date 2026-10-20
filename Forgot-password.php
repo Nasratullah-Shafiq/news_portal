@@ -23,7 +23,7 @@ include('./_Partial Components/conn.php');
    <script src="./js/bootstrap.js"></script>
    <script src="./js/OnlineQuiz.js"></script> 
 
-   
+
    <script src="./js/jquery.js" type="text/javascript" ></script>
    <script src = "./js/main.js"></script>
 

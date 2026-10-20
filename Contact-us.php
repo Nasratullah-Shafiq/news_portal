@@ -14,6 +14,7 @@ include_once('./_Partial Components/Header.php');
                     <div class="form-group">
                             <?php 
                             
+                            
                                 if (isset($error)) {
                                     echo "<div class='alert alert-danger' role='alert' style = 'font-size: 16px;'> $error </div>";
                                 }
