@@ -14,7 +14,7 @@ include_once "Assets/_Partial Components/".$class.".php";
 
 <!DOCTYPE html>
 <html>
-
+    
 <head> 
    <meta name="viewport" content=" width=device-width, initial-scale=1" />
    <link rel = "Stylesheet" type = "text/css" href = "./Assets/CSS/signin-style.css" />
@@ -27,6 +27,7 @@ include_once "Assets/_Partial Components/".$class.".php";
    <script src = "./Assets/js/NewsPortal.js"></script>
 
 </head>
+
 <body class = "body"> 
 
     <div class = "col-sm-3 box-signup" id="signup-form">

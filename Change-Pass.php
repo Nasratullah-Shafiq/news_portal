@@ -16,6 +16,7 @@ if(isset($_SESSION['Username'])){
     $chk_img = $row['Image'];
 }
 
+
 else{
     header("location: index.php");
 }
